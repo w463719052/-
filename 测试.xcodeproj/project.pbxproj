@@ -13,6 +13,7 @@
 		155584BA1C3E717300A1D22F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155584B81C3E717300A1D22F /* Main.storyboard */; };
 		155584BC1C3E717300A1D22F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155584BB1C3E717300A1D22F /* Assets.xcassets */; };
 		155584BF1C3E717300A1D22F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155584BD1C3E717300A1D22F /* LaunchScreen.storyboard */; };
+		155AE0191C3F443700C2601B /* YGTimeQuantumChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 155AE0181C3F443700C2601B /* YGTimeQuantumChooseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		155584BB1C3E717300A1D22F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		155584BE1C3E717300A1D22F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		155584C01C3E717300A1D22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		155AE0171C3F443700C2601B /* YGTimeQuantumChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGTimeQuantumChooseView.h; sourceTree = "<group>"; };
+		155AE0181C3F443700C2601B /* YGTimeQuantumChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGTimeQuantumChooseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +45,7 @@
 		155584A31C3E717300A1D22F = {
 			isa = PBXGroup;
 			children = (
-				155584AE1C3E717300A1D22F /* 测试 */,
+				155AE0131C3F424000C2601B /* New Group */,
 				155584AD1C3E717300A1D22F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +61,7 @@
 		155584AE1C3E717300A1D22F /* 测试 */ = {
 			isa = PBXGroup;
 			children = (
+				155AE0161C3F43F400C2601B /* YGTimeQuantumChoose */,
 				155584B21C3E717300A1D22F /* AppDelegate.h */,
 				155584B31C3E717300A1D22F /* AppDelegate.m */,
 				155584B51C3E717300A1D22F /* ViewController.h */,
@@ -77,6 +81,23 @@
 				155584B01C3E717300A1D22F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		155AE0131C3F424000C2601B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				155584AE1C3E717300A1D22F /* 测试 */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		155AE0161C3F43F400C2601B /* YGTimeQuantumChoose */ = {
+			isa = PBXGroup;
+			children = (
+				155AE0171C3F443700C2601B /* YGTimeQuantumChooseView.h */,
+				155AE0181C3F443700C2601B /* YGTimeQuantumChooseView.m */,
+			);
+			path = YGTimeQuantumChoose;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +172,7 @@
 			files = (
 				155584B71C3E717300A1D22F /* ViewController.m in Sources */,
 				155584B41C3E717300A1D22F /* AppDelegate.m in Sources */,
+				155AE0191C3F443700C2601B /* YGTimeQuantumChooseView.m in Sources */,
 				155584B11C3E717300A1D22F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +320,7 @@
 				155584C51C3E717300A1D22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
